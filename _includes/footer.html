@@ -1,0 +1,5 @@
+<ul>
+{% for _link in site.data.navigation.footer %}
+    <li><a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a></li>
+{% endfor %}
+</ul>
