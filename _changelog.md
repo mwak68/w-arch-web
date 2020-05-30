@@ -15,5 +15,21 @@ Midway club u of c is the alt text for one
 
 # Saturday
 
-categories work
-    
+- categories work
+
+to do
+
+* Set up domains on google admin
+* Set up GitHub account
+* Buy theme from https://themeforest.net/search/architecture or any of the billions of sites that show up as results to "jekyll themes" or "jekyll themes portfolio" or "jekyll themes architecture" etc.
+* Download all content from http://waechterarchblog.blogspot.com
+* Integrate theme & repo
+* Upload content from blog w/tags, categories.
+* Finalize data format for portfolio. 
+* Work out category/tag page displays
+* Transfer Github repo
+* Transfer howto download portfolio/finish up formatting
+* Upload all final content
+* Set up additional mailboxes/presences
+* Set up metrics reporting
+* Stand up new website at current domain
