@@ -12,11 +12,6 @@ Next page down from here should be all the work within a category.
 
 Next page down is a detail page. 
 
-<ul>
-{% for _link in site.categories %}
-    <li><a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{ _link.text }}</a></li>
-{% endfor %}
-</ul>
 
 Civic/Education
 
@@ -25,3 +20,11 @@ Residential
 Signage and Wayfinding
 
 Commercial -->
+Hi-
+
+<ul>
+{% for blarg in site.categories[page.tag] %}
+    <li><a href="{{site.url}}/{{blarg.tag}}">{{blarg.tag}}</a></li>
+{% endfor %}
+</ul>
+

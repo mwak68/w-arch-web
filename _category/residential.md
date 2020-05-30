@@ -1,0 +1,4 @@
+---
+tag: residential
+permalink: "/residential"
+---

@@ -1,0 +1,6 @@
+---
+tag: signage
+permalink: "/signage"
+---
+
+

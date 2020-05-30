@@ -1,0 +1,4 @@
+---
+tag: civic
+permalink: "/civic"
+---

@@ -3,9 +3,10 @@ layout: default
 ---
 
 <div>
-    <h1>Filed Under <small>#{{ page.tag }}</small></h1>
+    <h1>{{ page.tag }}</h1>
 
     {% for post in site.categories[page.tag] %}
+        hello <br>
         {% include post_preview.html %}
     {% endfor %}
 </div>
