@@ -2,13 +2,9 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: page
 
 ---
-
-# Waechter Architects PC
-
-a Veteran Owned Business
 
 WA is an architecture and design company on the north side of Chicago in the Ravenswood neighborhood. We have decades of experience in designing everything from kiosks to kilns, from patisseries to car dealers, and from university spaces to your space. Principals Charlie Friedlander and Michael Waechter have worked together for over twenty five years on projects throughout the Chicagoland area. Contact us to discuss your needs.
 
