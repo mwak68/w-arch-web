@@ -1,6 +1,6 @@
 basic_settings:
-  site_title: Index
-  site_tagline: A minimal, fixed sidebar grid portfolio Jekyll theme.
+  site_title: Waechter Architects PC
+  site_tagline: A veteran owned architecture and design company in Ravenswood on the north side of Chicago.
   favicon_image: /images/favicon.png
 
 header_settings:
@@ -9,12 +9,14 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Projects'
-      url: '/'
-    - title: 'Blog'
-      url: '/blog/'
+    - title: 'Portfolio'
+      url: '/portfolio'
+    - title: 'Services'
+      url: '/services'
     - title: 'About'
       url: '/about'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'Contact'
       url: '/contact'
 

@@ -11,17 +11,21 @@
 # primary:
 #   links: primary
 #
-header:
-  - text: Home
-    href: /
-  - text: Portfolio
-    href: /portfolio
-  - text: Services
-    href: /services
-  - text: About
-    href: /about
-  - text: Contact
-    href: /contact
+
+
+# header:
+#   - text: Home
+#     href: /
+#   - text: Portfolio
+#     href: /portfolio
+#   - text: Services
+#     href: /services
+#   - text: About
+#     href: /about
+#   - text: Contact
+#     href: /contact
+#
+# this is defined in settings.yml now with the new theme
     
 footer:
   - text: Accessibility
