@@ -61,10 +61,10 @@ social_settings:
 color_settings:
   background_color: '#ffffff'
   background_alt_color: '#F5F7FA'
-  text_dark_color: '#2A2F36'
+  text_dark_color: '#103E5F' # waechter blue
   text_medium_color: '#6C7A89'
   text_light_color: '#ABB7B7'
-  accent_color: '#0C5DF2'
+  accent_color: '#FBB265' # waechter yellow
   border_color: '#dddddd'
   overlay_background_color: '#0C5DF2'
   overlay_text_color: '#ffffff'
@@ -72,11 +72,11 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">'
-  title_font: '"Montserrat", sans-serif'
-  body_font: '"Montserrat", sans-serif'
-  regular_weight: 300
-  bold_weight: 500
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">'
+  title_font: '"Oswald", sans-serif'
+  body_font: '"Lato", sans-serif'
+  regular_weight: 400
+  bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 35
