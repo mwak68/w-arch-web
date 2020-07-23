@@ -1,7 +1,7 @@
 ---
 title: Accessibility statement
 layout: page
-permalink: /accessibility/
+# permalink: /accessibility/
 filename: accessibility.md
 
 ---
