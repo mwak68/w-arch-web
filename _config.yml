@@ -24,7 +24,7 @@ email: hello@w-arch.com
 description: >- # this means to ignore newlines until "baseurl:"
   An architecture and design firm in the Ravenswood neighborhood of Chicago serving private clients, institutions, municipalities and government agencies. We have decades of experience designing everything from kiosks to kilns, patisseries to car dealerships, university spaces to your space. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mwak68.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://w-arch.com/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
