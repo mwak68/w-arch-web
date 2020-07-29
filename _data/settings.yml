@@ -9,16 +9,16 @@ header_settings:
 
 menu_settings:
   menu_items:
-    - title: 'Portfolio'
-      url: '/portfolio'
+#    - title: 'Portfolio'
+#      url: '/portfolio'
     - title: 'Services'
       url: '/services'
     - title: 'About'
       url: '/about'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Contact'
-      url: '/contact'
+#    - title: 'Blog'
+#      url: '/blog/'
+#    - title: 'Contact'
+#      url: '/contact'
 
 grid_settings:
   overlay_opacity: 0.8
