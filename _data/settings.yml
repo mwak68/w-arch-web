@@ -1,7 +1,7 @@
 basic_settings:
   site_title: Waechter Architects PC
   site_tagline: A veteran owned architecture and design company in Ravenswood on the north side of Chicago.
-  favicon_image: /images/favicon.png
+  favicon_image: /images/wa-logos/WAsquare.png
 
 header_settings:
   logo_image: /images/wa-logos/WALogoHoriz.jpg
