@@ -4,8 +4,8 @@ basic_settings:
   favicon_image: /images/favicon.png
 
 header_settings:
-  logo_image: 
-  logo_width: 200
+  logo_image: /images/wa-logos/WALogoHoriz.jpg
+  logo_width: 800 
 
 menu_settings:
   menu_items:
@@ -15,10 +15,13 @@ menu_settings:
       url: '/services'
     - title: 'About'
       url: '/about'
+    - title: 'Portfolio'
+      url: '/portfolio'
 #    - title: 'Blog'
 #      url: '/blog/'
 #    - title: 'Contact'
 #      url: '/contact'
+
 
 grid_settings:
   overlay_opacity: 0.8
