@@ -33,7 +33,6 @@ Commercial -->
 	<img src="/images/wa-project-photos/Local Foods 1.JPG">
 	<img src="/images/wa-project-photos/Local Foods 2.JPG">
 	<img src="/images/wa-project-photos/Local Foods 3.JPG">
-	<img src="/images/wa-project-photos/McGiffert 1.jpg">
 	<img src="/images/wa-project-photos/McGiffert 2.jpg">
 	<img src="/images/wa-project-photos/SEARS 96.JPG">
 	<img src="/images/wa-project-photos/Canopy 1.jpg">
@@ -51,7 +50,6 @@ Commercial -->
 	<img src="/images/wa-project-photos/Local Foods 1.JPG">
 	<img src="/images/wa-project-photos/Local Foods 2.JPG">
 	<img src="/images/wa-project-photos/Local Foods 3.JPG">
-	<img src="/images/wa-project-photos/McGiffert 1.jpg">
 	<img src="/images/wa-project-photos/McGiffert 2.jpg">
 	<img src="/images/wa-project-photos/SEARS 96.JPG">
 	<img src="/images/wa-project-photos/Canopy 1.jpg">
