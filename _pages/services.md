@@ -19,6 +19,7 @@ Waechter Architects provides a variety of services including:
 * Project Permitting
 * Project Bidding and Contract Negotiation
 * Construction Administration
+* Project Management
 
 Please call to discuss your project needs.
 
