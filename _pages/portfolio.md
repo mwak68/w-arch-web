@@ -21,6 +21,9 @@ Residential
 Signage and Wayfinding
 
 Commercial -->
+{% for blarg in site.categories[page.tag] %}
+{{blarg.tag}}
+{% endfor %}<!-- 
 
 <div class="gallery" data-columns="1">
 	<img src="/images/wa-project-photos/Armitage 1.jpg">
@@ -55,4 +58,4 @@ Commercial -->
 	<img src="/images/wa-project-photos/Canopy 1.jpg">
 	<img src="/images/wa-project-photos/Canopy 4.jpg">
 	<img src="/images/wa-project-photos/WA office.jpg">
-</div>
+</div> -->
