@@ -3,22 +3,31 @@ layout: default
 ---
 
 <section class="intro">
-
-	<div class="wrap">
-
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
-
-	</div>
-
+  <div class="wrap">
+    {% assign cover_photo = page.photos.first %}
+    {% if cover_photo %}
+      <img src="/images/wa-project-photos/{{ cover_photo.url }}" alt="{{ cover_photo.alt_text }}" class="portfolio-cover-photo">
+    {% endif %}
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.subtitle }}</p>
+    <p class="portfolio-tags">
+      {% for category in page.categories %}
+      <a href="/{{ category }}/">{{ category }}</a>{% if category !=
+      page.categories.last %}, {% endif %}{% endfor %}
+    </p>
+  </div>
 </section>
 
-<section class="single">
+<section>
+  <div class="wrap">{{ page.content }}</div>
+</section>
 
-	<div class="wrap">
-
-		{{ page.content }}
-
-	</div>
-
+<section>
+  <div class="wrap">
+    <div class="gallery" data-columns="3">
+      {% for photo in page.photos %}
+        <img src="/images/wa-project-photos/{{ photo.url }}" alt="{{ photo.alt_text }}">
+      {% endfor %}
+    </div>
+  </div>
 </section>
