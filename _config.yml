@@ -123,16 +123,3 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-assets:
-  compression: true
-  gzip: false
-  sources:
-    - assets
-    - css
-    - images
-    - images/blog
-    - images/demo
-    - images/wa-logos
-    - images/wa-project-photos
-    - js

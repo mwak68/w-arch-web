@@ -1,4 +1,4 @@
 ---
 tag: education
-permalink: "/portfolio/education"
+permalink: "/education"
 ---

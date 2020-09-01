@@ -8,7 +8,7 @@
       <h2 class="card-title"><a href="{{ project.url | relative_url  }}">{{ project.title }}</a></h2>
       <p class="card-tags">
         {% for category in project.categories %}
-        <a href="/portfolio/{{ category }}/">{{ category }}</a>{% if category !=
+        <a href="/{{ category }}/">{{ category }}</a>{% if category !=
         project.categories.last %}, {% endif %}{% endfor %}
       </p>
     </div>
