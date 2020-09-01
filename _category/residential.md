@@ -1,4 +1,4 @@
 ---
 tag: residential
-permalink: "/residential"
+permalink: "/portfolio/residential"
 ---

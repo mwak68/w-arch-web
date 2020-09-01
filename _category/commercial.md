@@ -1,4 +1,4 @@
 ---
 tag: commercial
-permalink: "/commercial"
+permalink: "/portfolio/commercial"
 ---

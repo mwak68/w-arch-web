@@ -1,4 +1,4 @@
 ---
 tag: civic
-permalink: "/civic"
+permalink: "/portfolio/civic"
 ---

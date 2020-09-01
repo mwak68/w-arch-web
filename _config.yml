@@ -55,7 +55,7 @@ collections:
     permalink: /blog/:slug
   projects:
     output: true
-    permalink: /project/:slug
+    permalink: /portfolio/:slug
 
 defaults:
   -
@@ -124,3 +124,15 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+assets:
+  compression: true
+  gzip: false
+  sources:
+    - assets
+    - css
+    - images
+    - images/blog
+    - images/demo
+    - images/wa-logos
+    - images/wa-project-photos
+    - js

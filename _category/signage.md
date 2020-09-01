@@ -1,6 +1,6 @@
 ---
 tag: signage
-permalink: "/signage"
+permalink: "/portfolio/signage"
 ---
 
 
