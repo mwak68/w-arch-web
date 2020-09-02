@@ -34,16 +34,6 @@ plugins:
 
 # google_analytics_ua: 'UA-000000000-1'
 
-# i need something like this for categories & tags
-
-# collections:
-#   systems:
-#     output: true
-#     permalink: /:path/
-#   colors:
-#     output: true
-#     permalink: /:path/
-
 collections:
   category:
     output: true

@@ -5,26 +5,6 @@ title: Portfolio
 # permalink: /portfolio/
 ---
 
-<!--
-
-This page is full of JoeKim hard-coded "get her done and pass the bong" crap. top-level view of the portfolio, going to read data from portfolio.yml and produce a list of categories, with image, etc, or potentially a featured project.
-
-Next page down from here should be all the work within a category.
-
-Next page down is a detail page.
-
-
-Civic/Education
-
-Residential
-
-Signage and Wayfinding
-
-Commercial
-{% for blarg in site.categories[page.tag] %}
-{{blarg.tag}}
-{% endfor %}
--->
 <ul>
   {% for project in site.projects %}
   <li>
