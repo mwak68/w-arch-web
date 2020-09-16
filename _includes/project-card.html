@@ -1,9 +1,9 @@
     <div class="card">
-      {% assign photo = project.photos.first %}
+      {% assign photo = project.photos.last %}
       <img
         class="card-image"
         alt="{{ photo.alt_text }}"
-        src="/images/wa-project-photos/{{ photo.url }}"
+        src="/images/wa-project-photos/{{ project.ref }}/{{ photo.url }}"
       >
       <h2 class="card-title"><a href="{{ project.url | relative_url  }}">{{ project.title }}</a></h2>
       <p class="card-tags">

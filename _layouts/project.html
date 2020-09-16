@@ -4,9 +4,9 @@ layout: default
 
 <section class="intro">
   <div class="wrap">
-    {% assign cover_photo = page.photos.first %}
+    {% assign cover_photo = page.photos.last %}
     {% if cover_photo %}
-      <img src="/images/wa-project-photos/{{ cover_photo.url }}" alt="{{ cover_photo.alt_text }}" class="portfolio-cover-photo">
+      <img src="/images/wa-project-photos/{{ page.ref }}/{{ cover_photo.url }}" alt="{{ cover_photo.alt_text }}" class="portfolio-cover-photo">
     {% endif %}
     <h1>{{ page.title }}</h1>
     <p>{{ page.subtitle }}</p>
@@ -19,15 +19,28 @@ layout: default
 </section>
 
 <section>
+    {% assign logo = page.client_logo.first %}
+    {% if logo %}
+      <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}">
+    {% endif %}
+  <div class="wrap">{{ page.description }}</div>
+
   <div class="wrap">{{ page.content }}</div>
 </section>
 
 <section>
   <div class="wrap">
-    <div class="gallery" data-columns="3">
+    <div class="gallery" data-columns="1">
       {% for photo in page.photos %}
-        <img src="/images/wa-project-photos/{{ photo.url }}" alt="{{ photo.alt_text }}">
+        <img src="/images/wa-project-photos/{{ page.ref }}/{{ photo.url }}" alt="{{ photo.alt_text }}">
       {% endfor %}
     </div>
   </div>
+</section>
+
+<section>
+    {% assign project_sheet = page.project_sheet.first %}
+    {% if project_sheet %}
+      <a href="{{site.url}}/downloads/{{ page.ref }}/{{ project_sheet.url }}" alt=""/>{{ project_sheet.link_text }}</a>
+    {% endif %}
 </section>
