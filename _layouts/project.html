@@ -4,7 +4,7 @@ layout: default
 
 <section class="intro">
   <div class="wrap">
-    {% assign cover_photo = page.photos.first %}
+    {% assign cover_photo = page.photos.last %}
     {% if cover_photo %}
       <img src="/images/wa-project-photos/{{ page.ref }}/{{ cover_photo.url }}" alt="{{ cover_photo.alt_text }}" class="portfolio-cover-photo">
     {% endif %}

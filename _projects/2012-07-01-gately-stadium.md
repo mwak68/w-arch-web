@@ -4,6 +4,7 @@
 # Is a comment, at any point in a line
 title: Gately Stadium # Name of the project
 subtitle: '' # if it doesn't work without a value, try this or ""
+year: 2012
 ref: gat1 # used as the folder for all photos, below
 categories:
   - civic
@@ -18,9 +19,6 @@ client_logo:
   - alt_text: Chicago Public Schools
     url: cps-logo.jpg
 photos: # I exported images at 2000x1500 in my shitty software. They don't look as crisp or dark as your originals. I tried to rename them things that made writing alt text easy, and helps search engines guess what the content is. If all your stuff has gately all over it, names and image names and alt text and etc., you will show up for this kinda thing.
-  - alt_text:
-    url: gately-stadium.jpg
-    description:
   - alt_text:
     url: gately-stadium-bleachers.jpg
     description:
@@ -38,5 +36,8 @@ photos: # I exported images at 2000x1500 in my shitty software. They don't look 
     description:
   - alt_text:
     url: stands-from-field.jpg
+    description:
+  - alt_text: # LAST ONE IN THE LIST IS THE COVER PHOTO SO IT IS THE LAST ONE IN THE SET OF PHOTOS THAT FOLLOW
+    url: gately-stadium.jpg
     description:
 ---
