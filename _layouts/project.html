@@ -19,6 +19,12 @@ layout: default
 </section>
 
 <section>
+    {% assign client_logo = page.client_logo %}
+    {% if client_logo %}
+      <img src="/images/wa-project-logos/{{ client_logo.url }}" alt="{{ client_logo.alt_text }}">
+    {% endif %}
+  <div class="wrap">{{ page.description }}</div>
+
   <div class="wrap">{{ page.content }}</div>
 </section>
 
