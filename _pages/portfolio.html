@@ -5,10 +5,6 @@ title: Portfolio
 # permalink: /portfolio/
 ---
 
-<ul>
-  {% for project in site.projects %}
-  <li>
+{% for project in site.projects %}
     {% include project-card.html %}
-  </li>
-  {% endfor %}
-</ul>
+{% endfor %}

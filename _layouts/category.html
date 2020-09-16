@@ -5,17 +5,13 @@ layout: default
 <div>
     <h1>{{ page.tag | capitalize }}</h1>
 
-<ul>
   {% for project in site.projects %}
     {% for cat in project.categories %}
       {% if cat == page.tag %}
-      <li>
         {% include project-card.html %}
-      </li>
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
 
     {% for post in site.categories[page.tag] %}
       {% include post_preview.html %}
