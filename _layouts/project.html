@@ -23,12 +23,14 @@ layout: default
     {% if logo %}
       <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}">
     {% endif %}
-  <div class="wrap">{{ page.description }}</div>
+  <div class="wrap">{{ page.description }}
 
     {% assign project_sheet = page.project_sheet.first %}
     {% if project_sheet %}
-      <p><a href="{{site.url}}/downloads/{{ project_sheet.url }}" alt=""/>{{ project_sheet.link_text }}</a></p>
+      <p><a href="{{site.url}}/downloads/{{ project_sheet.url }}"/>{{ project_sheet.link_text }}</a></p>
     {% endif %}
+  </div>
+
 
   <div class="wrap">{{ page.content }}</div>
 </section>
