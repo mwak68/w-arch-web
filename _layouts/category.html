@@ -3,17 +3,24 @@ layout: default
 ---
 
 <div>
-    <h1>{{ page.tag | capitalize }}</h1>
+  <h1>{{ page.tag | capitalize }}</h1>
 
-  {% for project in site.projects %}
+
+{% for project in site.projects %}
+  <section>
     {% for cat in project.categories %}
       {% if cat == page.tag %}
         {% include project-card.html %}
       {% endif %}
     {% endfor %}
-  {% endfor %}
+  </section>
+{% endfor %}
+
+<section>
 
     {% for post in site.categories[page.tag] %}
       {% include post_preview.html %}
     {% endfor %}
+</section>
+
 </div>
