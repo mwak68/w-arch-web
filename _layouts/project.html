@@ -25,6 +25,11 @@ layout: default
     {% endif %}
   <div class="wrap">{{ page.description }}</div>
 
+    {% assign project_sheet = page.project_sheet.first %}
+    {% if project_sheet %}
+      <p><a href="{{site.url}}/downloads/{{ page.ref }}/{{ project_sheet.url }}" alt=""/>{{ project_sheet.link_text }}</a></p>
+    {% endif %}
+
   <div class="wrap">{{ page.content }}</div>
 </section>
 
@@ -38,9 +43,3 @@ layout: default
   </div>
 </section>
 
-<section>
-    {% assign project_sheet = page.project_sheet.first %}
-    {% if project_sheet %}
-      <a href="{{site.url}}/downloads/{{ page.ref }}/{{ project_sheet.url }}" alt=""/>{{ project_sheet.link_text }}</a>
-    {% endif %}
-</section>
