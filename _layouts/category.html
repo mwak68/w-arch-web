@@ -5,16 +5,20 @@ layout: default
 <div>
   <h1>{{ page.tag | capitalize }}</h1>
 
+<section class="portfolio">
 
-{% for project in site.projects %}
-  <section>
-    {% for cat in project.categories %}
-      {% if cat == page.tag %}
-        {% include project-card.html %}
-      {% endif %}
+    <div class="content-wrap portfolio-wrap">
+
+    {% for project in site.projects reversed %}
+        {% for cat in project.categories %}
+          {% if cat == page.tag %}
+            {% include project-card.html %}
+          {% endif %}
+        {% endfor %}
     {% endfor %}
-  </section>
-{% endfor %}
+    </div>
+
+</section>
 
 <section>
 

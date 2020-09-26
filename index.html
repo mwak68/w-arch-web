@@ -28,6 +28,12 @@ layout: default
                 </div>
 
             </a>
+            <p class="card-tags">
+                  {% for category in project.categories %}
+                  <a href="/{{ category }}/">{{ category }}</a>{% if category !=
+                  project.categories.last %}, {% endif %}
+                  {% endfor %}
+            </p>
 
         </div>
 
