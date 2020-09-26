@@ -39,13 +39,13 @@ collections:
     output: true
   pages:
     output: true
-    permalink: /:name
+    permalink: /:name/
   posts:
     output: true
-    permalink: /blog/:slug
+    permalink: /blog/:slug/
   projects:
     output: true
-    permalink: /portfolio/:slug
+    permalink: /portfolio/:slug/
 
 defaults:
   -
