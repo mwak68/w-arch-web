@@ -84,16 +84,16 @@ color_settings:
   error_color: "#D64541"
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">'
-  title_font: '"Oswald", sans-serif'
-  body_font: '"Lato", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap" rel="stylesheet">'
+  title_font: '"Raleway", sans-serif'
+  body_font: '"Lora", serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
     small_size: 25
     medium_size: 35
     large_size: 45
-    weight: 500
+    weight: 900
     letter_spacing: -0.02
   site_tagline:
     small_size: 16
@@ -106,7 +106,7 @@ font_settings:
     small_size: 30
     medium_size: 15
     large_size: 16
-    weight: 500
+    weight: 400
     letter_spacing: 0
   grid_item_title:
     small_size: 22
