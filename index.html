@@ -2,9 +2,41 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: page
+layout: default
 
 ---
+
+<section class="portfolio">
+
+    <div class="content-wrap portfolio-wrap">
+
+        {% for project in site.projects reversed %}
+
+        <div class="portfolio-item">
+
+            <a class="portfolio-item__link" href="{{ project.url | relative_url }}">
+
+                <div class="portfolio-item__image">
+                    <img src="/images/wa-project-photos/{{ project.ref }}/{{ project.photos.last.url}}" alt="{{ project.title }}">
+                </div>
+
+                <div class="portfolio-item__content">
+                    <div class="portfolio-item__info">
+                        <h2 class="portfolio-item__title">{{ project.title }}</h2>
+                        <p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</section>
+
 
 <p>WA is an architecture and design company on the north side of Chicago in the Ravenswood neighborhood. We have decades of experience in designing everything from kiosks to kilns, from patisseries to car dealers, and from university spaces to your space. Principals Charlie Friedlander and Michael Waechter have worked together for over twenty five years on projects throughout the Chicagoland area. Contact us to discuss your needs.
 </p>
