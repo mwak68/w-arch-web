@@ -20,6 +20,18 @@ menu_settings:
 #    - title: 'Contact'
 #      url: '/contact'
 
+category_settings:
+  menu_items:
+    - title: "Civic"
+      url: "/civic"
+    - title: "Commercial"
+      url: "/commercial"
+    - title: "Education"
+      url: "/education"
+    - title: "Residential"
+      url: "/residential"
+
+
 grid_settings:
   overlay_opacity: 0.8
   grid_spacing: 20

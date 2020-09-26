@@ -29,6 +29,17 @@
 			</div>
 		</div>
 
+		<div class="projects-menu">
+			<ul class="menu__list">
+				{% for item in site.data.settings.category_settings.menu_items %}
+					<li class="menu__list__item">
+						<a href="{{ item.url | relative_url }}" class="menu__list__item__link">{{ item.title }}</a>
+					</li>
+				{% endfor %}
+			</ul>
+		</div>
+
+
 		<div class="header__lower">
 
 			{% include socials.html %}
