@@ -11,17 +11,6 @@ menu_settings:
   menu_items:
     - title: "Portfolio"
       url: "/portfolio"
-    - title: "Services"
-      url: "/services"
-    - title: "About"
-      url: "/about"
-    - title: "Blog"
-      url: "/blog/"
-#    - title: 'Contact'
-#      url: '/contact'
-
-category_settings:
-  menu_items:
     - title: "Civic"
       url: "/civic"
     - title: "Commercial"
@@ -30,6 +19,17 @@ category_settings:
       url: "/education"
     - title: "Residential"
       url: "/residential"
+#    - title: 'Contact'
+#      url: '/contact'
+
+category_settings:
+  menu_items:
+    - title: "Services"
+      url: "/services"
+    - title: "About"
+      url: "/about"
+    - title: "Blog"
+      url: "/blog/"
 
 
 grid_settings:
