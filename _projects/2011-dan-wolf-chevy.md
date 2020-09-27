@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until the next line
 project_sheet:
   - link_text: Project Sheet 
     url: dan-wolf-chevy-2011-project-sheet.pdf
-client: Chicago Public Schools
+client: Dan Wolf Chevrolet of Naperville
 client_logo:
   - alt_text: Chevrolet
     url: chevy-logo.gif

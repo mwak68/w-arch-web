@@ -1,6 +1,16 @@
-
+// these contain all CSS overrides for our work.
 
 .menu, .projects-menu, .card-tags {  
   font-family: $title_font;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.logo {
+  width: 50%;
+}

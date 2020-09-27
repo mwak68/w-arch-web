@@ -20,22 +20,26 @@ layout: default
 </section>
 <section class="single">
   <div class="wrap">
-  {{ page.description }}
+    {% assign logo = page.client_logo.first %}
+    {% if logo %}
+      <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}" class="center">
+    {% endif %}
+  <h2>{{ page.client }}</h2>
+
+  <p>{{ page.description }}</p>
+
+  {% assign project_sheet = page.project_sheet.first %}
+    {% if project_sheet %}
+      <p><a href="/downloads/{{ project_sheet.url }}"/>Download project sheet (PDF)</a></p>
+    {% endif %}
+
+
   </div>
 </section>
 
 
-  <div class="wrap">{{ page.content }}</div>
 
-    {% assign logo = page.client_logo.first %}
-    {% if logo %}
-      <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}">
-    {% endif %}
 
-    {% assign project_sheet = page.project_sheet.first %}
-    {% if project_sheet %}
-      <p><a href="{{site.url}}/downloads/{{ project_sheet.url }}"/>{{ project_sheet.link_text }}</a></p>
-    {% endif %}
 
 <section>
   <div class="wrap">
@@ -45,5 +49,9 @@ layout: default
       {% endfor %}
     </div>
   </div>
+</section>
+
+<section>
+  <div class="wrap">{{ page.content }}</div>
 </section>
 
