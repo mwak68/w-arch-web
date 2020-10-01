@@ -1,16 +1,16 @@
 # To do
 
-* fix portfolio, category pages
-* fix home page
 * fix contact page
 * Set up metrics reporting
 * Finalize data format for portfolio. 
-* Transfer howto download portfolio/finish up formatting
 * Upload all final content from http://web.archive.org/web/20180819145735/http://w-arch.com/portfolio/commercial/chicago-local-foods/
-* Midway club u of c is the alt text for one _what does this mean?_
 
 # done
 
+* Midway club u of c is the alt text for one _what does this mean?_
+* Transfer howto download portfolio/finish up formatting
+* fix portfolio, category pages
+* fix home page
 * categories work
 * Download all content from http://waechterarchblog.blogspot.com
 * Upload content from blog w/tags, categories.
