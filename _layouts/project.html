@@ -16,24 +16,22 @@ layout: default
       <a href="/{{ category }}">{{ category }}</a>{% if category !=
       page.categories.last %}, {% endif %}{% endfor %}
     </p>
-  </div>
-</section>
-<section class="single">
-  <div class="wrap">
-    {% assign logo = page.client_logo.first %}
-    {% if logo %}
-      <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}" class="center">
-    {% endif %}
-  <h2>{{ page.client }}</h2>
-
   <p>{{ page.description }}</p>
 
   {% assign project_sheet = page.project_sheet.first %}
     {% if project_sheet %}
       <p><a href="/downloads/{{ project_sheet.url }}"/>Download project sheet (PDF)</a></p>
     {% endif %}
-
-
+  </div>
+</section>
+<section class="single">
+  <div class="wrap">
+    <h2>Client</h2>
+    {% assign logo = page.client_logo.first %}
+    {% if logo %}
+      <img src="/images/wa-project-logos/{{ logo.url }}" alt="{{ logo.alt_text }}" class="center">
+    {% endif %}
+  <p>{{ page.client }}</p>
   </div>
 </section>
 

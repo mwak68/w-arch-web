@@ -72,21 +72,21 @@ social_settings:
 
 color_settings:
   background_color: "#ffffff"
-  background_alt_color: "#F5F7FA"
-  text_dark_color: "#0C3451" # waechter blue ORIG
-  text_medium_color: "#176298" # waechter blue 2
-  text_light_color: "#103E5F" # waechter blue
-  accent_color: "#EA7F53" # waechter yellow
+  background_alt_color: "#FFFFFF"
+  text_dark_color: "#002442" # waechter blue ORIG
+  text_medium_color: "#002442" # waechter blue 2
+  text_light_color: "#002442" # waechter blue
+  accent_color: "#FDA647" # waechter yellow
   border_color: "#dddddd"
-  overlay_background_color: "#0C5DF2"
-  overlay_text_color: "#ffffff"
+  overlay_background_color: "#FDA647"
+  overlay_text_color: "#002442"
   overlay_accent_color: "#2A2F36"
   error_color: "#D64541"
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lora&family=Raleway&display=swap" rel="stylesheet">'
-  title_font: '"Raleway", sans-serif'
-  body_font: '"Lora", serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Crimson Pro&display=swap" rel="stylesheet">'
+  title_font: '"Crimson Pro", serif'
+  body_font: '"Crimson Pro", serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
@@ -103,9 +103,9 @@ font_settings:
     letter_spacing: 0
     line_height: 1.5
   menu:
-    small_size: 30
-    medium_size: 15
-    large_size: 16
+    small_size: 16
+    medium_size: 18
+    large_size: 20
     weight: 400
     letter_spacing: 0
   grid_item_title:
