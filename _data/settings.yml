@@ -75,7 +75,7 @@ color_settings:
   background_alt_color: "#FFFFFF"
   text_dark_color: "#002442" # waechter blue ORIG
   text_medium_color: "#002442" # waechter blue 2
-  text_light_color: "#002442" # waechter blue
+  text_light_color: "#6B8091" # waechter blue
   accent_color: "#FDA647" # waechter yellow
   border_color: "#dddddd"
   overlay_background_color: "#FDA647"

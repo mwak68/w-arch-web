@@ -1,5 +1,5 @@
 ---
-title: West Armitage Residential New Construction 
+title: West Armitage New Construction 
 subtitle: 
 ref: arm1 # used as the folder for all photos, below
 year: 2013
