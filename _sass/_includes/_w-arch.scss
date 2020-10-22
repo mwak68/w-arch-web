@@ -5,12 +5,13 @@
 
  .card-tags, .portfolio-tags {  
   font-family: $title_font;
-//  font-variant-caps: small-caps;
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
+  font-style: italic;
 
     a {
     
+      font-weight: 400;
 //    text-decoration: none;
 
     }
