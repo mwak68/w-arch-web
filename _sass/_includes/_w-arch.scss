@@ -5,9 +5,9 @@
 
  .card-tags, .portfolio-tags {  
   font-family: $title_font;
-  font-variant-caps: small-caps;
-//  text-transform: uppercase;
-//  font-weight: 900;
+//  font-variant-caps: small-caps;
+  text-transform: capitalize;
+  font-weight: 700;
 
     a {
     
@@ -19,7 +19,14 @@
 
 h1 {
     font-variant-caps: small-caps;
+//    color: #6B8091;
+
 }
+
+h1.header__tagline {
+    font-variant-caps: normal;
+}
+
 
 .portfolio-item__title {
 //    font-variant-caps: small-caps;
@@ -34,12 +41,7 @@ h1 {
 }
 
 .logo {
-  width: 50%;
-}
-
-h1 {
-
-    color: #6B8091;
+//  width: 50%;
 }
 
 a {

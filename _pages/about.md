@@ -5,7 +5,7 @@ title: About
 
 ---
 
-## MICHAEL WAECHTER, AIA, NCARB, MArch
+## Michael Waechter, AIA, NCARB, MArch
 
 Mr. Waechter has nearly thirty years experience in building design and construction. After serving in the US Army for four years, he moved to Chicago and began work as a carpenter for LR Development building residences, condominiums and small commercial structures. His hard work, building acumen and diligence earned him a role as a construction supervisor on many sites. While in this capacity he earned both undergraduate and Masters’ degrees in Architecture from the University of Illinois at Chicago.
 
@@ -13,7 +13,7 @@ As an architect with DLK Architecture and with the HOH Group in Chicago, Mr. Wae
 
 Upon the successful completion of the Ambassador Condominiums, Mr. Waechter started Waechter Architects in 2005. Since then his firm has been the selected as the architect for many private commercial, residential and public works for clients such as the University of Chicago, the School of the Art Institute of Chicago, Chicago Public Schools, and M. Pritzker Capital.
 
-## CHARLES T. FRIEDLANDER
+## Charles T. Friedlander
 
 Mr. Friedlander has more than thirty years of experience in the architecture and construction industry after earning a bachelor degree in architecture from Washington University, St. Louis, Mo. in 1985.
 

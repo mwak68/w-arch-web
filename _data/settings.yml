@@ -96,16 +96,16 @@ font_settings:
     weight: 900
     letter_spacing: -0.02
   site_tagline:
-    small_size: 16
-    medium_size: 18
-    large_size: 20
-    weight: 300
+    small_size: 18
+    medium_size: 21
+    large_size: 24
+    weight: 400
     letter_spacing: 0
     line_height: 1.5
   menu:
-    small_size: 16
-    medium_size: 18
-    large_size: 20
+    small_size: 18
+    medium_size: 21
+    large_size: 24
     weight: 400
     letter_spacing: 0
   grid_item_title:
@@ -121,18 +121,18 @@ font_settings:
     weight: 300
     letter_spacing: 0
   h1:
-    small_size: 25
-    medium_size: 35
-    large_size: 45
-    weight: 500
-    letter_spacing: -0.02
+    small_size: 24
+    medium_size: 30
+    large_size: 36
+    weight: 700
+    letter_spacing: -0.0
     line_height: 1.2
   h2:
-    small_size: 22
+    small_size: 24
     medium_size: 30
-    large_size: 35
-    weight: 500
-    letter_spacing: -0.02
+    large_size: 36
+    weight: 400
+    letter_spacing: 0
     line_height: 1.2
   h3:
     small_size: 22
@@ -165,7 +165,7 @@ font_settings:
   p:
     small_size: 16
     medium_size: 18
-    large_size: 20
+    large_size: 21
     weight: 400
     letter_spacing: 0
     line_height: 1.6
