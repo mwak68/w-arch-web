@@ -5,9 +5,10 @@ title: About
 
 ---
 
-## Michael Waechter, AIA, NCARB, MArch
+## Michael Waechter, AIA, RIBA, NCARB, MArch
+Licensed Architect: IL | WI | IN | FL | MI | NY | MA | UK (RIBA Chartered) | NCARB Certified
 
-Mr. Waechter has nearly thirty years experience in building design and construction. After serving in the US Army for four years, he moved to Chicago and began work as a carpenter for LR Development building residences, condominiums and small commercial structures. His hard work, building acumen and diligence earned him a role as a construction supervisor on many sites. While in this capacity he earned both undergraduate and Masters’ degrees in Architecture from the University of Illinois at Chicago.
+Mr. Waechter has over thirty years experience in building design and construction. After serving in the US Army for four years, he moved to Chicago and began work as a carpenter for LR Development building residences, condominiums and small commercial structures. His hard work, building acumen and diligence earned him a role as a construction supervisor on many sites. While in this capacity he earned both undergraduate and Masters’ degrees in Architecture from the University of Illinois at Chicago.
 
 As an architect with DLK Architecture and with the HOH Group in Chicago, Mr. Waechter has worked on many diverse projects for both private and public entities. In the private sector he has been the project architect or design architect on several important residences including the $72M Ambassador condominiums in Chicago’s Gold Coast, a renovation of a historic residence at Fort Sheridan and work on Redwing Farm, a prominent country estate in northeast Illinois. With multiple public agencies Mr. Waechter has been the project architect in charge of design and construction of Chicago’s new $40M Simeon Career Academy and has done extensive work with Chicago Public Schools on other projects including the Murray Language Academy and numerous facility upgrades. In addition to architecture, while at HOH Mr. Waechter also served as the Owners’ Representative for the City of Chicago’s Campus Parks Program and as the project manager for ongoing upgrades to CPS’s data infrastructure.
 
