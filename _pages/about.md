@@ -14,11 +14,7 @@ As an architect with DLK Architecture and with the HOH Group in Chicago, Mr. Wae
 
 Upon the successful completion of the Ambassador Condominiums, Mr. Waechter started Waechter Architects in 2005. Since then his firm has been the selected as the architect for many private commercial, residential and public works for clients such as the University of Chicago, the School of the Art Institute of Chicago, Chicago Public Schools, and M. Pritzker Capital.
 
-## Charles T. Friedlander
 
-Mr. Friedlander has more than thirty years of experience in the architecture and construction industry after earning a bachelor degree in architecture from Washington University, St. Louis, Mo. in 1985.
-
-As an Associate Principal with DLK Architecture in Chicago, Mr. Friedlander served as project architect on many complex and high-profile urban infrastructure and municipal projects. Mr. Friedlander has been responsible for conceptual design, contract document production, coordination of engineering disciplines and primary client contact.
 
 
 
